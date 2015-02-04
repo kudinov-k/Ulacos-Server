@@ -1,0 +1,11 @@
+{
+	"require": {
+		"slim/slim": "2.*",
+		"aws/aws-sdk-php": "2.*",
+		"illuminate/database": "*"
+	},
+	"autoload": {
+		"psr-0": { "": "modules/" },
+		"files": ["config.php"]
+	}
+}

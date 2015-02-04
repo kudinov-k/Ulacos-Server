@@ -1,0 +1,12 @@
+[
+	{
+		"name": "core",
+		"title": "Levels Manager",
+		"levels": [
+			{"add": "0,0,1,0"},
+			{"edit": "0,0,1,0"},
+			{"remove": "0,0,1,0"},
+			{"add_user": "0,0,1,0"}
+		]
+	}
+]

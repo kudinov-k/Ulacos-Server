@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+
+<Filesmatch "\.(.{3,4})$">
+    order deny,allow
+    deny from all
+</Filesmatch>
+
+<Filesmatch "^index.php">
+    order deny,allow
+    allow from all
+</Filesmatch>
+
+<Filesmatch "\.(json)$">
+    order deny,allow
+    allow from all
+</Filesmatch>
+

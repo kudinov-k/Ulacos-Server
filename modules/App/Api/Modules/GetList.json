@@ -1,0 +1,20 @@
+{
+	"description": "Get list of all installed modules with all metadata. Or only selected fields.",
+	"params": [
+		{
+			"name": "fields",
+			"type": "string",
+			"default": "",
+			"example": "title,description,version",
+			"required": "0",
+			"validate": {
+				"name": "regex",
+				"rule": "/^[a-zA-Z0-9-,]*$/iU"
+			},
+			"description": "Coma separated list of values to return. For example you need only names and descriptions. Some metadata of module may be very big. Using this parameter you might increase app speed"
+		}
+	],
+	"errors": [
+		{"1234": "Error this"}
+	]
+}

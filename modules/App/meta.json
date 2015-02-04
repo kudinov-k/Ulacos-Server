@@ -1,0 +1,13 @@
+{
+	"version": "0.1",
+	"title": "Application",
+	"description": "Core application kernel",
+	"type": [
+		"widget",
+		"menu",
+		"module"
+	],
+	"dependency": [
+		"acl"
+	]
+}

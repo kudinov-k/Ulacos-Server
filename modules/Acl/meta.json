@@ -1,0 +1,16 @@
+{
+	"version": "0.1",
+	"title": "ACL",
+	"description": "Access level manager",
+	"type": [
+		"widget",
+		"menu",
+		"module"
+	],
+	"dependency": [
+		"users"
+	],
+	"events": {
+		"after_get_app_modules_list": "\\Acl\\Api\\Helper"
+	}
+}
